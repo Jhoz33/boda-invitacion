@@ -1,0 +1,448 @@
+/* Mobile */
+@media only screen and (max-width: 767px) {
+  /* Musica */
+
+
+  #modalMusica .iniciales span {
+    font-size: 85px;
+    line-height: 90px;
+  }
+
+  #modalMusica .iniciales .ampersand-portada {
+    height: 75px;
+  }
+
+  #modalMusica .nombres {
+    flex-direction: column;
+    padding: 10px 0px;
+  }
+
+  #modalMusica .nombres span {
+    font-size: 60px;
+    line-height: 70px;
+  }
+
+  #modalMusica .nombres span.ampersand {
+    font-size: 35px;
+    line-height: 43px;
+  }
+
+  #modalMusica .nombres::before,
+  #modalMusica .nombres::after {
+    width: 65%;
+  }
+
+  /* 
+  #modalMusica span.ampersand {
+    margin-bottom: 20px;
+  } */
+
+  #modalMusica .modal-content {
+    padding: 30px 10px;
+  }
+
+  #modalMusica .modal-content p {
+    font-size: 26px;
+    line-height: 30px;
+    background-size: 120px;
+    background-position-y: 80px;
+    padding-bottom: 20px;
+  }
+
+
+  #modalMusica .modal-content .boton {
+    margin-bottom: 15px;
+    padding: 12px 15px;
+    font-size: 16px;
+  }
+
+  #modalMusica .modal-content span.aclara-musica {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 20px;
+  }
+
+  #modalMusica .modal-content p.bienvenida-modal-musica {
+    margin-bottom: 20px;
+    padding-bottom: 0;
+    font-size: 18px;
+    line-height: 18px;
+  }
+
+  #modalMusica .modal-content .nombres-modal-musica p {
+    font-size: 25px;
+    line-height: 25px;
+    padding: 0;
+  }
+
+  #modalMusica .ampersand-modal-musica {
+    width: 140px;
+    top: -10px;
+  }
+
+  #modalMusica .logo-modal-musica {
+    width: 300px;
+    height: auto;
+  }
+
+  /* end Musica */
+
+  /* Generales */
+  .title {
+    font-size: 35px;
+    line-height: 40px;
+    padding: 0 15px;
+    margin-bottom: 15px;
+  }
+
+  .subtitle {
+    font-size: 20px;
+    padding: 0 20px;
+    line-height: 25px;
+    margin-top: 0;
+  }
+
+  .boton {
+    font-size: 16px;
+  }
+
+
+  ul.lang-inv {
+    top: -85px;
+  }
+
+  #controlador-musica {
+    top: initial;
+    bottom: 0;
+    right: 0;
+  }
+
+  .music-anim-icon {
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+  }
+
+
+  .flags-laguages {
+    padding: 5px;
+  }
+
+  section.portada ul.lang-inv {
+    top: 5px;
+    position: relative;
+    margin-bottom: 45px;
+  }
+
+  /* end Generales */
+
+  /* Portada */
+
+
+  section.portada .sombra-vertical {
+    display: none;
+  }
+
+  section.portada .sombra-horizontal.sombra-top {
+    display: inline-block;
+  }
+
+  section.portada .content-portada h1 {
+    font-size: 80px;
+    line-height: 85px;
+  }
+
+  section.portada .content-portada .nombres span {
+    font-size: 60px;
+    line-height: 60px;
+  }
+
+  section.portada .nombres span.ampersand {
+    font-size: 35px;
+    line-height: 45px;
+  }
+
+  section.portada .content-portada span.fecha {
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  section.portada.portada-dividida .portada-picture {
+    width: 100%;
+    height: 600px;
+    position: relative;
+  }
+
+  section.portada .portada-container .row.d-flex {
+    height: 590px;
+    margin-top: -25px;
+  }
+
+  section.portada .portada-container {
+    width: 100%;
+    padding-bottom: 0;
+  }
+
+  section.portada .box-frase-portada p {
+    font-size: 18px;
+    line-height: 25px;
+    padding: 0 22px;
+  }
+
+  section.portada .box-frase-portada p {
+    font-size: 20px;
+    line-height: 25px;
+    padding: 0 22px;
+  }
+
+  section.portada p.subtitulo {
+    font-size: 25px;
+    line-height: 25px;
+  }
+
+  section.portada .box-frase-portada {
+    margin-top: 30px;
+  }
+
+  section.portada .content-portada .nombres {
+    flex-direction: column;
+  }
+
+  section.portada .nombres span.ampersand {
+    margin: 5px 0;
+  }
+
+  section.portada .logo-portada{
+    width: 300px;
+    height: auto;
+  }
+
+  /* end Portada */
+
+  /* Cuenta regresiva */
+
+
+  section.cuenta-regresiva span.falta {
+    font-size: 45px;
+  }
+
+  section.cuenta-regresiva .reloj-col {
+    width: 85px;
+  }
+
+  section.cuenta-regresiva .reloj-col span.number {
+    font-size: 45px;
+  }
+
+  section.cuenta-regresiva .reloj-col span.time {
+    font-size: 22px;
+  }
+
+  section.cuenta-regresiva .reloj {
+    margin-top: 10px;
+  }
+
+  /* end Cuenta regresiva */
+
+
+  /* Eventos */
+  section.ceremonia-fiesta .box-color-col {
+    width: 95%;
+  }
+
+  section.ceremonia-fiesta .col-ceremonia h3,
+  section.ceremonia-fiesta .col-fiesta h3 {
+    padding: 0;
+    font-size: 35px;
+  }
+
+  section.ceremonia-fiesta .col-ceremonia .anim-anillos,
+  section.ceremonia-fiesta .anim-fiesta {
+    width: 50%;
+    min-width: 150px;
+    max-width: 190px;
+    height: auto;
+  }
+
+  section.ceremonia-fiesta .col-ceremonia,
+  section.ceremonia-fiesta .col-fiesta {
+    padding: 10px;
+  }
+
+  section.ceremonia-fiesta .col-ceremonia {
+    margin-bottom: 45px;
+  }
+
+  section.ceremonia-fiesta .info-col .info-box p {
+    font-size: 17px;
+    padding: 0 20px;
+  }
+
+  /* end Eventos */
+
+  /* Galeria */
+
+  section.galeria .content-fotos .polaroid {
+    padding-bottom: 15px;
+  }
+
+  /* end Galeria */
+
+  /* Fiesta */
+
+  section.fiesta .item-fiesta .content-item-fiesta {
+    padding: 20px;
+  }
+
+  /* end Fiesta */
+
+  /* Instagram */
+
+  section.instagram .hashtag {
+    font-size: 35px;
+  }
+
+  /* end Instagram */
+
+  /* Footer */
+
+  section.footer .col-nombres-footer {
+    padding: 20px 0;
+  }
+
+  section.footer .col-nombres-footer .iniciales {
+    margin-bottom: 10px;
+  }
+
+  section.footer .col-acciones-footer ul {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    margin-top: 55px;
+  }
+
+  section.footer .container {
+    padding: 60px 0;
+  }
+
+  section.footer .col-acciones-footer ul a,
+  section.footer .addeventatc span.nameBtn {
+    font-size: 18px;
+  }
+
+  section.footer .col-nombres-footer .ampersand-footer {
+    width: 160px;
+  }
+
+  section.footer .col-acciones-footer ul li {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  section.footer .col-nombres-footer .nombres {
+    flex-direction: column;
+  }
+
+  section.footer .nombres span {
+    font-size: 90px;
+    line-height: 90px;
+  }
+
+  section.footer .nombres span.ampersand {
+    font-size: 35px;
+    line-height: 45px;
+  }
+
+  section.footer .logo-footer{
+    width: 300px;
+    height: auto;
+  }
+
+
+  /* end Footer */
+
+  /* Modales */
+
+  .modal .modal-content-2 .modal-header .modal-title {
+    font-size: 25px;
+    line-height: 30px;
+    font-family: var(--fuente-1);
+  }
+
+  .modal-dialog form label {
+    font-size: 16px;
+  }
+
+  .modal .modal-content-2.box-color-col {
+    padding: 10px 0;
+  }
+
+  .modal-dialog ::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    font-size: 14px;
+    /* Firefox */
+  }
+
+  .modal-dialog :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    font-size: 14px;
+  }
+
+  .modal-dialog ::-ms-input-placeholder {
+    /* Microsoft Edge */
+    font-size: 14px;
+  }
+
+  .modal.modal-transparent .modal-header h3 {
+    font-size: 25px;
+  }
+
+  #modal-lang .modal-body {
+    padding: 0;
+  }
+
+  /* end Modales */
+
+  /* Forms */
+
+  #modalAsistencia .form-group.custom-radio {
+    padding: 0;
+    margin: 0;
+  }
+
+  /* end Forms */
+
+  section.seccion-principal.confirmacion-asistencia {
+    padding: 60px 0 120px;
+  }
+
+  #modalAsistencia .form-flex-title {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+
+  #modalAsistencia .form-flex-subtitle {
+    font-size: 14px;
+  }
+
+  #modalAsistencia .form-flex-label {
+    font-size: 16px;
+  }
+
+  #modalAsistencia .form-flex-exito-titulo {
+    font-size: 28px;
+  }
+
+  #modalAsistencia .form-flex-container {
+    padding: 18px 12px 22px;
+    max-width: 100%;
+  }
+
+  #modalAsistencia #form-asistencia-flex {
+    margin: 0;
+  }
+
+  section.seccion-principal.confirmacion-asistencia .box-confirmacion {
+    margin-top: 80px;
+  }
+}
