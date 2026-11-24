@@ -84,7 +84,6 @@
       }
       window.dispatchEvent(new CustomEvent('convite:capa-abierta'));
       window.dispatchEvent(new Event('resize'));
-      window.dispatchEvent(new Event('scroll'));
       timerCierre = 0;
     }, 1200);
   }
