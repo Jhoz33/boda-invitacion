@@ -1,0 +1,34 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Gestión de Invitados</title>
+<link rel="stylesheet" href="{% static 'modelo-invitacion/133/css/bootstrap.min.css' %}">
+</head>
+<body class="p-4">
+<div class="container">
+<h2>Gestión de Invitados</h2>
+<form method="post" class="mb-4">
+{% csrf_token %}
+<div class="row g-2">
+<div class="col-md-5"><input type="text" name="nombre" class="form-control" placeholder="Nombre completo" required></div>
+<div class="col-md-3"><input type="text" name="grupo" class="form-control" placeholder="Grupo opcional"></div>
+<div class="col-md-2"><input type="number" name="acompanantes" class="form-control" placeholder="Acompañantes" min="0"></div>
+<div class="col-md-2"><button class="btn btn-primary w-100">Agregar</button></div>
+</div>
+</form>
+<table class="table table-striped">
+<thead><tr><th>Nombre</th><th>Grupo</th><th>Acompañantes</th><th>Creado</th></tr></thead>
+<tbody>
+{% for i in invitados %}
+<tr><td>{{ i.nombre }}</td><td>{{ i.grupo }}</td><td>{{ i.acompanantes }}</td><td>{{ i.creado|date:"d/m/Y H:i" }}</td></tr>
+{% empty %}
+<tr><td colspan="4">No hay invitados</td></tr>
+{% endfor %}
+</tbody>
+</table>
+<a href="/" class="btn btn-link">Volver a la invitación</a>
+</div>
+</body>
+</html>

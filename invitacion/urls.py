@@ -8,6 +8,7 @@ app_name = "invitacion"
 urlpatterns = [
     path("", views.invitacion_view, name="inicio"),
     path("preview/", views.preview_view, name="preview"),
+    path("invitados/", views.gestion_invitados, name="gestion_invitados"),
     path("<str:codigo>/", views.invitacion_view, name="por_pais"),
     path("api/asistencia/", views.submit_response, name="submit_response"),
     path("producto/fetchs/confirmar-asistencia.php", views.confirmar_asistencia, name="confirmar_asistencia"),

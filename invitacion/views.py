@@ -52,6 +52,20 @@ def preview_view(request):
     return render(request, "preview.html")
 
 
+def gestion_invitados(request):
+    if request.method == "POST":
+        nombre = request.POST.get("nombre", "").strip()
+        grupo = request.POST.get("grupo", "").strip()
+        try:
+            acompanantes = int(request.POST.get("acompanantes") or 0)
+        except ValueError:
+            acompanantes = 0
+        if nombre:
+            Invitado.objects.create(nombre=nombre, grupo=grupo, acompanantes=acompanantes)
+    invitados = Invitado.objects.all()
+    return render(request, "gestion_invitados.html", {"invitados": invitados})
+
+
 def _parse_fecha(valor: str) -> datetime:
     for fmt in ("%Y-%m-%d %H:%M:%S", "%Y-%m-%dT%H:%M:%S", "%d/%m/%Y %H:%M:%S"):
         try:
