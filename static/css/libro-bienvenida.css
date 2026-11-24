@@ -37,7 +37,7 @@
 .libro-interior {
   position: absolute;
   inset: 0;
-  z-index: 3;
+  z-index: 2;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -66,7 +66,7 @@
 
 .libro-tapa {
   position: relative;
-  z-index: 2;
+  z-index: 4;
   width: 100%;
   aspect-ratio: 540 / 960;
   transform-origin: left center;

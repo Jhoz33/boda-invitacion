@@ -10,16 +10,16 @@ from django.views.decorators.http import require_POST, require_GET
 from .models import Confirmacion, Invitado, SugerenciaCancion
 
 EVENTO = {
-    "novios": {"nombre1": "Luis", "nombre2": "Rosa"},
+    "novios": {"nombre1": "Marlon", "nombre2": "Kelly"},
     "evento": {
-        "fecha_texto": "15.05.2027",
-        "ceremonia_texto": "Sábado 15 de Mayo - 17hs",
-        "celebracion_texto": "Sábado 15 de Mayo - 20hs",
-        "ceremonia_inicio": "2027-05-15 17:00:00",
-        "ceremonia_fin": "2027-05-15 18:00:00",
-        "celebracion_inicio": "2027-05-15 20:00:00",
-        "celebracion_fin": "2027-05-16 02:00:00",
-        "cuenta_regresiva": "05/15/2027 17:00:00",
+        "fecha_texto": "09.01.2027",
+        "ceremonia_texto": "Sábado 09 de Enero - 17hs",
+        "celebracion_texto": "Sábado 09 de Enero - 20hs",
+        "ceremonia_inicio": "2027-01-09 17:00:00",
+        "ceremonia_fin": "2027-01-09 18:00:00",
+        "celebracion_inicio": "2027-01-09 20:00:00",
+        "celebracion_fin": "2027-01-10 02:00:00",
+        "cuenta_regresiva": "01/09/2027 17:00:00",
     },
     "invitados": ["Valentina Ruiz", "Agustín Ruiz"],
     "acompanantes": 1,

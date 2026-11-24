@@ -52,10 +52,11 @@
     }
     if (interior) {
       interior.style.transition = 'none';
-      interior.style.opacity = '1';
-      interior.style.transform = 'scale(1)';
+      var interiorOp = progress > 0.6 ? 1 : 0;
+      interior.style.opacity = String(interiorOp);
+      interior.style.transform = 'scale(' + (0.96 + 0.04 * interiorOp) + ')';
+    }
   }
-}
 
   function terminar() {
     if (abierto) {
